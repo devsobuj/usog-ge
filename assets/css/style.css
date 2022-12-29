@@ -43,7 +43,10 @@ body {
     font-family: 'ge';
 }
 
-
+.logo_with_text{
+    font-size: 20px;
+    font-weight: bold;
+}
 .button {
     padding: 8px 20px;
     border-radius: 10px;
@@ -209,6 +212,7 @@ body {
 }
 .home-register-button{
     margin-top: 40px;
+    text-align: center;
 }
 .timer-wrapper {
     background: #7040a9;
@@ -590,7 +594,7 @@ body {
         justify-content: unset;
         background-size: cover;
         background-position: bottom;
-        padding-top: 50px;
+        padding-top: 100px;
     }
     .home_banner_text_mobile{
         display: block;
@@ -624,7 +628,7 @@ body {
         flex-direction: column;
         background: linear-gradient(45deg, #492F7F, #7F489B);
     }
-
+    
     .navs ul li {
         margin-bottom: 30px;
     }
