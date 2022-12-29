@@ -34,6 +34,7 @@ Company: Watermark
                         <ul>
                             <li><a href="#home">Home</a></li>
                             <li><a href="#about_conference">Conference</a></li>
+                            <li><a href="#agenda">Agenda</a></li>
                             <li><a href="#speaker">Speakers</a></li>
                             <!-- <li><a href="#query_section">Query</a></li> -->
                             <li><a href="#registration">Registration</a></li>
@@ -53,38 +54,58 @@ Company: Watermark
 
     <div class="mobile_home" id="home">
 
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="img/up_banner.png" class="d-block w-100" alt="...">
-
-                    <div class="timer" id="countdown">
-                        <div class="timer-wrapper" data-aos="zoom-in">
-                            <div id="day" class="time"></div>
-                            <span class="text">Days</span>
-                        </div>
-                        <div class="timer-wrapper" data-aos="zoom-in">
-                            <div id="hour" class="time"></div>
-                            <span class="text">Hours</span>
-                        </div>
-                        <div class="timer-wrapper" data-aos="zoom-in">
-                            <div id="min" class="time"></div>
-                            <span class="text">Minutes</span>
-                        </div>
-                        <div class="timer-wrapper" data-aos="zoom-in">
-                            <div id="sec" class="time"></div>
-                            <span class="text">Sec</span>
-                        </div>
-                        <!-- <a href="#registration" class="mt-5 button button-a text-center"> Register Now</a> -->
-                    </div>
+        <img src="img/banner_text.png" alt="banner text" class="home_banner_text" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="img/mobile_home_text.png" alt="banner text" class="home_banner_text_mobile" data-aos="zoom-in" data-aos-duration="1000">
+        
+        <div class="mobile_coundown">
+            <div class="timer" id="countdown" >
+                <div class="timer-wrapper" data-aos="zoom-in" data-aos-duration="700">
+                    <div id="day" class="time"></div>
+                    <span class="text">Days</span>
+                </div>
+                <div class="timer-wrapper" data-aos="zoom-in" data-aos-duration="700">
+                    <div id="hour" class="time"></div>
+                    <span class="text">Hours</span>
+                </div>
+                <div class="timer-wrapper" data-aos="zoom-in" data-aos-duration="700">
+                    <div id="min" class="time"></div>
+                    <span class="text">Minutes</span>
+                </div>
+                <div class="timer-wrapper" data-aos="zoom-in" data-aos-duration="700">
+                    <div id="sec" class="time"></div>
+                    <span class="text">Sec</span>
                 </div>
             </div>
-            
+            <div class="home-register-button" data-aos="fade-up" data-aos-duration="700">
+                <a href="#registration" class="mt-5 button button-a text-center"> Register Now</a>
+            </div>
         </div>
-
     </div>
 
-    
+    <!-- <div class="timer flex-column" id="countdown" >
+        <div class="countDown d-flex">
+            <div class="timer-wrapper" data-aos="zoom-in">
+                <div id="day" class="time"></div>
+                <span class="text">Days</span>
+            </div>
+            <div class="timer-wrapper" data-aos="zoom-in">
+                <div id="hour" class="time"></div>
+                <span class="text">Hours</span>
+            </div>
+            <div class="timer-wrapper" data-aos="zoom-in">
+                <div id="min" class="time"></div>
+                <span class="text">Minutes</span>
+            </div>
+            <div class="timer-wrapper" data-aos="zoom-in">
+                <div id="sec" class="time"></div>
+                <span class="text">Sec</span>
+            </div>
+        </div>
+        <div>
+
+            <a href="#registration" class="mt-5 button button-a text-center"> Register Now</a>
+        </div> -->
+
 
     <section id="about_conference" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
@@ -135,7 +156,7 @@ Company: Watermark
 
             <div class="row">
 
-                <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+                <div class="col-lg-12" id="agenda" data-aos="fade-up" data-aos-duration="1000">
                     <div class="right_side_area right_description">
                         <div class="right_side_about_container">
                             <h3>Conference Activities</h3>
@@ -846,8 +867,9 @@ Company: Watermark
                                 <li>
                                     <div class="d-flex" style="flex-direction: column ;">
                                         <span><i class="fa fa-map-marker-alt"></i> Location:</span>
-                                        <span>Radisson Blu Dhaka Water Garden</span>
-                                        <span>Airport Rd, Dhaka</span>
+                                        <span>OS# 1401, Lavel # 14</span>
+                                        <span>Shanta Western Tower, 186 Tejgaon I/A</span>
+                                        <span>Dhaka- 1208, Bangladesh</span>
 
                                     </div>
                                 </li>
