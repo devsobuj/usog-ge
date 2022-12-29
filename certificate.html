@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="assets/lib/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/lib/fontawesome/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head> 
@@ -46,14 +47,14 @@
 
     <div class="container">
 
-        <div class="certificate_container text-center">
+        <div class="certificate_container text-center" data-aos="fade-up" data-aos-duration="1000">
             <img src="img/certificate.webp" alt="Certificate Photo" width="250px">
             <h1 style="color:#492F7F"><i class="fa fa-user-graduate"></i> Your Certificate will be avaiable after 29th jan 2023</h1>
         </div>
     </div>
         
 
-    <section id="contact" class="contact sec_bottom_80">
+    <section id="contact" class="contact sec_bottom_80" data-aos="fade-up" data-aos-duration="1000">
         <div class="container">
             <div class="section_title">
                 <h2>Contact Us</h2>
@@ -130,8 +131,11 @@
     <script src="assets//lib/jquery/jquery.min.js"></script>
     <script src="assets/lib/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/countdown.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/jquery.js"></script>
-
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
