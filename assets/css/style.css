@@ -194,8 +194,26 @@ body {
 
     }
 }
+.footer_titile{
+    position: relative;
+    padding-bottom: 10px;
+}
+.footer_titile::before{
+    content: '';
+    background: #fff;
+    width: 55px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+}
+.footer_page_link a{
+    color: #fff;
 
+}
+.footer_page_link a:hover{
+    color: yellow;
 
+}
 /* home section */
 
 
@@ -415,8 +433,16 @@ body {
 
 #footer {
     background: #553069;
-    padding: 20px 0px;
+    /* padding: 60px 0px; */
     color: #fff;
+}
+.footer-top{
+    padding: 60px 0px;
+    color: #fff;
+    border-bottom: .5px solid #fff;
+}
+.footer-bottom{
+    padding: 20px 0px;
 }
 
 .copy_text a {
